@@ -1,7 +1,7 @@
 class Tai < Formula
   include Language::Python::Virtualenv
 
-  depends_on "python@3.x"
+  depends_on "python@3.11"
 
   desc "TAI (text artisan interface) is a productivity command-line tool that uses openai tools for text transformations"
   homepage "https://github.com/mikelovesrobots/tai"
